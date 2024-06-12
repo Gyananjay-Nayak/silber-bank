@@ -1,0 +1,25 @@
+.primary-bg {
+    background-color: #1a4087 !important;
+}
+
+.primary-color {
+    color: #1a4087;
+}
+
+.primary-outlined{
+    color: #1a4087 !important;
+    border: #1a4087 2px solid !important;
+    background: none;
+}
+.primary-outlined:hover{
+    background-color: #1a4087e6 !important;
+    color: #ffff !important;
+}
+
+.rounded-btn {
+    border-radius: 50px;
+}
+
+.w-75 {
+    width: 75% !important;
+}

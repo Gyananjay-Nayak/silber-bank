@@ -1,0 +1,39 @@
+header .header{
+    height: 100px;
+}
+.navbar .header-btn {
+    border-radius: 20px;
+}
+.navbar .header-btn-text{
+    font-weight: 600;
+}
+
+header .navbar-brand{
+    color: #1a4087;
+    font-family: "Lora", serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.flag-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.navbar .nav-link{
+    color: #272727;
+    font-weight: 500;
+}
+@media (min-width: 992px) {
+    .navbar .nav-item{
+        text-wrap: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+@media (max-width: 400px) {
+    header .navbar-collapse{
+        z-index: 10;
+        background-color: #c3d3ef;
+    }
+}

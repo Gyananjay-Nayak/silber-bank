@@ -1,0 +1,210 @@
+.home-banner-bg {
+    width: 100%;
+    height: auto;
+}
+
+.banner-container {
+    width: 100vw;
+    position: relative;
+}
+
+.banner-text-container {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text-container.left {
+    left: 0;
+}
+
+.banner-text-container.right {
+    right: 0;
+}
+
+.text-inner-cont {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.banner-heading {
+    font-family: "Lora", serif;
+}
+
+.banner-sub-heading {
+    color: #272727;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.banner-text-container .banner-btn {
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+    font-weight: 500;
+}
+
+@media (min-width: 992px) {
+    .banner-heading {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-heading{
+        font-size: 18px;
+    }
+    .banner-sub-heading{
+        font-size: 12px;
+    }
+}
+
+/* explore offering section */
+.explore-heading {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.explore-custom-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.explore-card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.explore-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #444444, #888888);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 0 20px;
+}
+
+.explore-icon {
+    width: 40px;
+    height: 40px;
+    stroke: white;
+}
+
+
+/* convenience card section */
+
+.convenience-custom-card {
+    margin-bottom: 20px;
+}
+
+.convenience-card-divider {
+    margin: 20px auto;
+    width: 50%;
+    border-top: 3px solid;
+    opacity: 0.75;
+    color: '#2f5193';
+}
+
+.convenience-card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.convenience-card-container .convenience-custom-card {
+    flex: 0 0 32%;
+    margin-bottom: 20px;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100%;
+}
+
+.convenience-custom-card .card-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.convenience-custom-card .card-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.convenience-section .convenience-btn {
+    border-radius: 25px;
+    padding: 10px 35px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .convenience-card-container .convenience-custom-card {
+        flex: 0 0 48%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .convenience-card-container .convenience-custom-card {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* benefit section css */
+
+.benefit-heading{
+    font-family: "Lora", serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.benefit-icon-container {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #444444, #888888);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.benefit-icon-container i {
+    color: #ffff;
+}
+.benefit-title{
+    font-family: "Lora", serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.benefit-description{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+.benefit-section .benefit-btn{
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: "Lora", serif;
+    font-weight: 500;
+}

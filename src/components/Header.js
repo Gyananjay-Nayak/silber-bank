@@ -7,7 +7,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  NavbarText,
   Button,
   Dropdown,
   DropdownToggle,
@@ -17,8 +16,8 @@ import {
 import "../assets/css/header.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { US, FR } from "country-flag-icons/react/3x2";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXing } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXing } from "@fortawesome/free-brands-svg-icons";
 
 function Header() {
   const languages = [
@@ -43,7 +42,7 @@ function Header() {
     <>
       <Navbar expand="md" className="header px-4">
         <NavbarBrand href="/" className="d-flex align-items-center">
-          <FontAwesomeIcon icon={faXing} className='logo' />
+          <FontAwesomeIcon icon={faXing} className="logo" />
           Silber Private Bank
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
@@ -80,7 +79,9 @@ function Header() {
               </Dropdown>
             </NavItem>
             <NavItem>
-              <Button className="header-btn primary-bg me-3 header-btn-text">Log In</Button>
+              <Button className="header-btn primary-bg me-3 header-btn-text">
+                Log In
+              </Button>
             </NavItem>
             <NavItem>
               <Button outline className="header-btn me-3 header-btn-text">

@@ -6,12 +6,13 @@
     color: #1a4087;
 }
 
-.primary-outlined{
+.primary-outlined {
     color: #1a4087 !important;
     border: #1a4087 2px solid !important;
     background: none;
 }
-.primary-outlined:hover{
+
+.primary-outlined:hover {
     background-color: #1a4087e6 !important;
     color: #ffff !important;
 }

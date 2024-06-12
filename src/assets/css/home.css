@@ -58,10 +58,11 @@
 }
 
 @media (max-width: 768px) {
-    .banner-heading{
+    .banner-heading {
         font-size: 18px;
     }
-    .banner-sub-heading{
+
+    .banner-sub-heading {
         font-size: 12px;
     }
 }
@@ -169,7 +170,7 @@
 
 /* benefit section css */
 
-.benefit-heading{
+.benefit-heading {
     font-family: "Lora", serif;
     font-weight: 700;
     text-align: center;
@@ -190,19 +191,22 @@
 .benefit-icon-container i {
     color: #ffff;
 }
-.benefit-title{
+
+.benefit-title {
     font-family: "Lora", serif;
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 10px;
 }
-.benefit-description{
+
+.benefit-description {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #3e3e3e;
 }
-.benefit-section .benefit-btn{
+
+.benefit-section .benefit-btn {
     border-radius: 25px;
     font-size: 20px;
     font-family: "Lora", serif;

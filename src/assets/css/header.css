@@ -1,14 +1,16 @@
-header .header{
+header .header {
     height: 100px;
 }
+
 .navbar .header-btn {
     border-radius: 20px;
 }
-.navbar .header-btn-text{
+
+.navbar .header-btn-text {
     font-weight: 600;
 }
 
-header .navbar-brand{
+header .navbar-brand {
     color: #1a4087;
     font-family: "Lora", serif;
     font-weight: 700;
@@ -21,18 +23,20 @@ header .navbar-brand{
     vertical-align: middle;
 }
 
-.navbar .nav-link{
+.navbar .nav-link {
     color: #272727;
     font-weight: 500;
 }
+
 @media (min-width: 992px) {
-    .navbar .nav-item{
+    .navbar .nav-item {
         text-wrap: nowrap;
         text-overflow: ellipsis;
     }
 }
+
 @media (max-width: 400px) {
-    header .navbar-collapse{
+    header .navbar-collapse {
         z-index: 10;
         background-color: #c3d3ef;
     }

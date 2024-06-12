@@ -1,7 +1,7 @@
-import './assets/css/common.css'
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Home from './pages/Home';
+import "./assets/css/common.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -9,8 +9,8 @@ function App() {
       <header>
         <Header />
       </header>
-        <Home />
-        <Footer />
+      <Home />
+      <Footer />
     </div>
   );
 }

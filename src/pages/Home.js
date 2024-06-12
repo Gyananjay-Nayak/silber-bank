@@ -1,10 +1,10 @@
-import React from 'react'
-import Banner from '../components/Banner'
-import '../assets/css/home.css'
-import OurOfferings from '../components/OurOfferings'
-import MidBanner from '../components/MidBanner'
-import ConvenienceSection from '../components/ConvenienceSection'
-import BenefitSection from '../components/BenefitSection'
+import React from "react";
+import Banner from "../components/Banner";
+import "../assets/css/home.css";
+import OurOfferings from "../components/OurOfferings";
+import MidBanner from "../components/MidBanner";
+import ConvenienceSection from "../components/ConvenienceSection";
+import BenefitSection from "../components/BenefitSection";
 
 function Home() {
   return (
@@ -15,7 +15,7 @@ function Home() {
       <MidBanner />
       <BenefitSection />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

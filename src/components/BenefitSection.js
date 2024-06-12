@@ -42,7 +42,9 @@ function BenefitSection() {
   ];
   return (
     <div className="benefit-section my-4">
-      <h1 className="benefit-heading">Benefits Of Banking With Silber Private Bank</h1>
+      <h1 className="benefit-heading">
+        Benefits Of Banking With Silber Private Bank
+      </h1>
       <Container className="my-5 w-75">
         <Row>
           {benefits.map((benefit, index) => (
@@ -64,8 +66,12 @@ function BenefitSection() {
         </Row>
       </Container>
       <div className="d-flex justify-content-center mb-5">
-        <Button size="lg" className="me-4 benefit-btn primary-bg">Contact Us</Button>
-        <Button size="lg" outline className="benefit-btn primary-outlined">Get Started</Button>
+        <Button size="lg" className="me-4 benefit-btn primary-bg">
+          Contact Us
+        </Button>
+        <Button size="lg" outline className="benefit-btn primary-outlined">
+          Get Started
+        </Button>
       </div>
     </div>
   );

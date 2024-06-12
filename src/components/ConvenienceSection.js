@@ -39,10 +39,14 @@ function ConvenienceSection() {
 
   return (
     <div className="w-75 mx-auto py-5 convenience-section">
-        <div className="text-center">
-            <Button className="convenience-btn primary-bg">Ready to Create An Account?</Button>
-        </div>
-        <h1 className="text-center my-5">Get Convenience & Security With Our <br/> Smart Banking System</h1>
+      <div className="text-center">
+        <Button className="convenience-btn primary-bg">
+          Ready to Create An Account?
+        </Button>
+      </div>
+      <h1 className="text-center my-5">
+        Get Convenience & Security With Our <br /> Smart Banking System
+      </h1>
       <Container>
         <Row className="convenience-card-container">
           {cardsData.map((card, index) => (
